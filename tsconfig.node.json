@@ -3,10 +3,11 @@
     "target": "ESNext",
     "composite": true,
     "module": "ESNext",
+    "strict": false,
     "moduleResolution": "Node",
     "jsx": "preserve",
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": false
   },
   "include": ["package.json", "electron"]
 }

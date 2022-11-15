@@ -7,7 +7,12 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    BaseCharts: typeof import('./components/BaseCharts.vue')['default']
+    CalendarHeatmap: typeof import('./components/CalendarHeatmap.vue')['default']
+    Card: typeof import('./components/Card.vue')['default']
+    Circle: typeof import('./components/Circle.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
+    ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
     ElDropdown: typeof import('element-plus/es')['ElDropdown']
     ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
@@ -22,7 +27,9 @@ declare module '@vue/runtime-core' {
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
+    ElUpload: typeof import('element-plus/es')['ElUpload']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    RoseEchart: typeof import('./components/RoseEchart.vue')['default']
     Sleep: typeof import('./components/Sleep.vue')['default']
   }
 }

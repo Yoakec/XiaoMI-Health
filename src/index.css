@@ -1,0 +1,10 @@
+:root {
+  --el-font-size-base: 12px !important;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gray-300;
+}
